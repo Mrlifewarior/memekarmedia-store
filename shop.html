@@ -1,0 +1,2103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Favicons -->
+  <link rel="icon" href="assets/img/logo/tab_icon.png">
+
+  <!-- Libs CSS -->
+  <link rel="stylesheet" href="assets/libs/%40fancyapps/fancybox/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="assets/libs/%40fortawesome/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="assets/libs/flickity/dist/flickity.min.css">
+  <link rel="stylesheet" href="assets/libs/highlightjs/styles/vs2015.css">
+  <link rel="stylesheet" href="assets/libs/simplebar/dist/simplebar.min.css">
+  <link rel="stylesheet" href="assets/libs/flickity-fade/flickity-fade.css">
+  <link rel="stylesheet" href="assets/fonts/feather/feather.css">
+
+  <!-- Theme CSS -->
+  <link rel="stylesheet" href="assets/css/theme.min.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154926440-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-154926440-1');
+
+  </script>
+
+  <title>Memekar. Media. &mdash; Shop</title>
+
+</head>
+
+<body>
+
+  <!-- MODALS -->
+  <!-- Search -->
+  <div class="modal fixed-right fade" id="modalSearch" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-vertical" role="document">
+      <div class="modal-content">
+
+        <!-- Close -->
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <i class="fe fe-x" aria-hidden="true"></i>
+        </button>
+
+        <!-- Header-->
+        <div class="modal-header line-height-fixed font-size-lg">
+          <strong class="mx-auto">Search Products</strong>
+        </div>
+
+        <!-- Body: Form -->
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label class="sr-only" for="modalSearchCategories">Categories:</label>
+              <select class="custom-select" id="modalSearchCategories">
+                <option selected>All Categories</option>
+                <option>T-Shirts</option>
+                <option>Phone Covers</option>
+                <option>Mugs</option>
+              </select>
+            </div>
+            <div class="input-group input-group-merge">
+              <input class="form-control" type="search" placeholder="Search">
+              <div class="input-group-append">
+                <button class="btn btn-outline-border" type="submit">
+                  <i class="fe fe-search"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <!-- Body: Results (add `.d-none` to disable it) -->
+        <div class="modal-body border-top font-size-sm">
+
+          <!-- Heading -->
+          <p>Search Results:</p>
+
+          <!-- Items -->
+          <div class="row align-items-center position-relative mb-5">
+            <div class="col-4 col-md-3">
+
+              <!-- Image -->
+              <img class="img-fluid" src="assets/img/products/pcover-1.jpg" alt="...">
+
+            </div>
+            <div class="col position-static">
+
+              <!-- Text -->
+              <p class="mb-0 font-weight-bold">
+                <a class="stretched-link text-body" href="product.html">Blue Phone Case</a> <br>
+                <span class="text-muted">₹99.00</span>
+              </p>
+
+            </div>
+          </div>
+          <div class="row align-items-center position-relative mb-5">
+            <div class="col-4 col-md-3">
+
+              <!-- Image -->
+              <img class="img-fluid" src="assets/img/products/mug-4.jpg" alt="...">
+
+            </div>
+            <div class="col position-static">
+
+              <!-- Text -->
+              <p class="mb-0 font-weight-bold">
+                <a class="stretched-link text-body" href="product.html">Designed Black Mug</a> <br>
+                <span class="text-muted">₹199.00</span>
+              </p>
+
+            </div>
+          </div>
+          <div class="row align-items-center position-relative mb-5">
+            <div class="col-4 col-md-3">
+
+              <!-- Image -->
+              <img class="img-fluid" src="assets/img/products/tshirt-3.jpg" alt="...">
+
+            </div>
+            <div class="col position-static">
+
+              <!-- Text -->
+              <p class="mb-0 font-weight-bold">
+                <a class="stretched-link text-body" href="product.html">Cotton White T-Shirt</a> <br>
+                <span class="text-primary">₹599.00</span>
+              </p>
+
+            </div>
+          </div>
+          <div class="row align-items-center position-relative mb-5">
+            <div class="col-4 col-md-3">
+
+              <!-- Image -->
+              <img class="img-fluid" src="assets/img/products/mug-3.jpg" alt="...">
+
+            </div>
+            <div class="col position-static">
+
+              <!-- Text -->
+              <p class="mb-0 font-weight-bold">
+                <a class="stretched-link text-body" href="product.html">Black Printed Coffee Mug</a> <br>
+                <span class="text-muted">₹159.00</span>
+              </p>
+
+            </div>
+          </div>
+          <div class="row align-items-center position-relative mb-5">
+            <div class="col-4 col-md-3">
+
+              <!-- Image -->
+              <img class="img-fluid" src="assets/img/products/pcover-2.jpg" alt="...">
+
+            </div>
+            <div class="col position-static">
+
+              <!-- Text -->
+              <p class="mb-0 font-weight-bold">
+                <a class="stretched-link text-body" href="product.html">Printed Mobile Cover</a> <br>
+                <span class="text-muted">₹199.00</span>
+              </p>
+
+            </div>
+          </div>
+
+          <!-- Button -->
+          <a class="btn btn-link px-0 text-reset" href="shop.html">
+            View All <i class="fe fe-arrow-right ml-2"></i>
+          </a>
+
+        </div>
+
+        <!-- Body: Empty (remove `.d-none` to disable it) -->
+        <div class="d-none modal-body">
+
+          <!-- Text -->
+          <p class="mb-3 font-size-sm text-center">
+            Nothing matches your search
+          </p>
+          <p class="mb-0 font-size-sm text-center">
+            😞
+          </p>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Product -->
+  <div class="modal fade" id="modalProduct" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+      <div class="modal-content">
+
+        <!-- Close -->
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <i class="fe fe-x" aria-hidden="true"></i>
+        </button>
+
+        <!-- Content -->
+        <div class="container-fluid px-xl-0">
+          <div class="row align-items-center mx-xl-0">
+            <div class="col-12 col-lg-6 col-xl-5 py-4 py-xl-0 px-xl-0">
+
+              <!-- Image -->
+              <img class="img-fluid" src="assets/img/products/product-15.jpg" alt="...">
+
+              <!-- Button -->
+              <a class="btn btn-sm btn-block btn-primary" href="product.html">
+                More Product Info <i class="fe fe-info ml-2"></i>
+              </a>
+
+            </div>
+            <div class="col-12 col-lg-6 col-xl-7 py-9 px-md-9">
+
+              <!-- Heading -->
+              <h4 class="mb-3">Cotton White T-Shirt</h4>
+
+              <!-- Price -->
+              <div class="mb-7">
+                <span class="h5">₹599.00</span>
+                <span class="font-size-sm">(In Stock)</span>
+              </div>
+
+              <!-- Form -->
+              <form>
+                <div class="form-group">
+
+                  <!-- Label -->
+                  <p>
+                    Color: <strong id="modalProductColorCaption">White</strong>
+                  </p>
+
+                  <!-- Radio -->
+                  <div class="mb-8 ml-n1">
+                    <div class="custom-control custom-control-inline custom-control-img">
+                      <input type="radio" class="custom-control-input" id="modalProductColorOne"
+                        name="modalProductColor" data-toggle="form-caption" data-target="#modalProductColorCaption"
+                        value="White" checked>
+                      <label class="custom-control-label" for="modalProductColorOne">
+                        <span class="embed-responsive embed-responsive-1by1 bg-cover"
+                          style="background-image: url(assets/img/products/product-15.jpg);"></span>
+                      </label>
+                    </div>
+                    <div class="custom-control custom-control-inline custom-control-img">
+                      <input type="radio" class="custom-control-input" id="modalProductColorTwo"
+                        name="modalProductColor" data-toggle="form-caption" data-target="#modalProductColorCaption"
+                        value="Black">
+                      <label class="custom-control-label" for="modalProductColorTwo">
+                        <span class="embed-responsive embed-responsive-1by1 bg-cover"
+                          style="background-image: url(assets/img/products/product-.jpg);"></span>
+                      </label>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="form-group mb-0">
+
+                  <!-- Label -->
+                  <p>
+                    Size: <strong><span id="modalProductSizeCaption">L</span> In</strong>
+                  </p>
+
+                  <!-- Radio -->
+                  <div class="mb-2">
+                    <div class="custom-control custom-control-inline custom-control-size mb-2">
+                      <input type="radio" class="custom-control-input" name="modalProductSize" id="modalProductSizeOne"
+                        value="3XS" data-toggle="form-caption" data-target="#modalProductSizeCaption">
+                      <label class="custom-control-label" for="modalProductSizeOne">3XS</label>
+                    </div>
+                    <div class="custom-control custom-control-inline custom-control-size mb-2">
+                      <input type="radio" class="custom-control-input" name="modalProductSize" id="modalProductSizeTwo"
+                        value="2XS" data-toggle="form-caption" data-target="#modalProductSizeCaption" disabled>
+                      <label class="custom-control-label" for="modalProductSizeTwo">2XS</label>
+                    </div>
+                    <div class="custom-control custom-control-inline custom-control-size mb-2">
+                      <input type="radio" class="custom-control-input" name="modalProductSize"
+                        id="modalProductSizeThree" value="XS" data-toggle="form-caption"
+                        data-target="#modalProductSizeCaption">
+                      <label class="custom-control-label" for="modalProductSizeThree">XS</label>
+                    </div>
+                    <div class="custom-control custom-control-inline custom-control-size mb-2">
+                      <input type="radio" class="custom-control-input" name="modalProductSize" id="modalProductSizeFour"
+                        value="S" data-toggle="form-caption" data-target="#modalProductSizeCaption" checked>
+                      <label class="custom-control-label" for="modalProductSizeFour">S</label>
+                    </div>
+                    <div class="custom-control custom-control-inline custom-control-size mb-2">
+                      <input type="radio" class="custom-control-input" name="modalProductSize" id="modalProductSizeFive"
+                        value="M" data-toggle="form-caption" data-target="#modalProductSizeCaption">
+                      <label class="custom-control-label" for="modalProductSizeFive">M</label>
+                    </div>
+                    <div class="custom-control custom-control-inline custom-control-size mb-2">
+                      <input type="radio" class="custom-control-input" name="modalProductSize" id="modalProductSizeSix"
+                        value="L" data-toggle="form-caption" data-target="#modalProductSizeCaption">
+                      <label class="custom-control-label" for="modalProductSizeSix">L</label>
+                    </div>
+                    <div class="custom-control custom-control-inline custom-control-size mb-2">
+                      <input type="radio" class="custom-control-input" name="modalProductSize"
+                        id="modalProductSizeSeven" value="XL" data-toggle="form-caption"
+                        data-target="#modalProductSizeCaption" disabled>
+                      <label class="custom-control-label" for="modalProductSizeSeven">XL</label>
+                    </div>
+                    <div class="custom-control custom-control-inline custom-control-size mb-2">
+                      <input type="radio" class="custom-control-input" name="modalProductSize"
+                        id="modalProductSizeEight" value="2XL" data-toggle="form-caption"
+                        data-target="#modalProductSizeCaption" disabled>
+                      <label class="custom-control-label" for="modalProductSizeEight">2XL</label>
+                    </div>
+                    <div class="custom-control custom-control-inline custom-control-size mb-2">
+                      <input type="radio" class="custom-control-input" name="modalProductSize" id="modalProductSizeNine"
+                        value="3XL" data-toggle="form-caption" data-target="#modalProductSizeCaption">
+                      <label class="custom-control-label" for="modalProductSizeNine">3XL</label>
+                    </div>
+                    <div class="custom-control custom-control-inline custom-control-size mb-2">
+                      <input type="radio" class="custom-control-input" name="modalProductSize" id="modalProductSizeTen"
+                        value="4XL" data-toggle="form-caption" data-target="#modalProductSizeCaption">
+                      <label class="custom-control-label" for="modalProductSizeTen">4XL</label>
+                    </div>
+                    <div class="custom-control custom-control-inline custom-control-size mb-2">
+                      <input type="radio" class="custom-control-input" name="modalProductSize"
+                        id="modalProductSizeEleven" value="Free Size" data-toggle="form-caption"
+                        data-target="#modalProductSizeCaption">
+                      <label class="custom-control-label" for="modalProductSizeEleven">Free Size</label>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="form-group mb-0">
+                  <div class="form-row">
+                    <div class="col-12 col-lg-auto">
+
+                      <!-- Quantity -->
+                      <select class="custom-select mb-2">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+
+                    </div>
+                    <div class="col-12 col-lg">
+
+                      <!-- Submit -->
+                      <button type="submit" class="btn btn-block btn-dark mb-2">
+                        Add to Cart <i class="fe fe-shopping-cart ml-2"></i>
+                      </button>
+
+                    </div>
+                    <div class="col-12 col-lg-auto">
+
+                      <!-- Wishlist -->
+                      <button class="btn btn-outline-dark btn-block mb-2" data-toggle="button">
+                        Wishlist <i class="fe fe-heart ml-2"></i>
+                      </button>
+
+                    </div>
+                  </div>
+                </div>
+              </form>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Shopping Cart -->
+  <div class="modal fixed-right fade" id="modalShoppingCart" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-vertical" role="document">
+
+      <!-- Full cart (add `.d-none` to disable it) -->
+      <div class="modal-content">
+
+        <!-- Close -->
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <i class="fe fe-x" aria-hidden="true"></i>
+        </button>
+
+        <!-- Header-->
+        <div class="modal-header line-height-fixed font-size-lg">
+          <strong class="mx-auto">Your Cart (2)</strong>
+        </div>
+
+        <!-- List group -->
+        <ul class="list-group list-group-lg list-group-flush">
+          <li class="list-group-item">
+            <div class="row align-items-center">
+              <div class="col-4">
+
+                <!-- Image -->
+                <a href="product.html">
+                  <img class="img-fluid" src="assets/img/products/product-112.jpg" alt="...">
+                </a>
+
+              </div>
+              <div class="col-8">
+
+                <!-- Title -->
+                <p class="font-size-sm font-weight-bold mb-6">
+                  <a class="text-body" href="product.html">Cotton Lined T-Shirt</a> <br>
+                  <span class="text-muted">₹499.00</span>
+                </p>
+
+                <!--Footer -->
+                <div class="d-flex align-items-center">
+
+                  <!-- Select -->
+                  <select class="custom-select custom-select-xxs w-auto">
+                    <option value="1">1</option>
+                    <option value="1">2</option>
+                    <option value="1">3</option>
+                  </select>
+
+                  <!-- Remove -->
+                  <a class="font-size-xs text-gray-400 ml-auto" href="#!">
+                    <i class="fe fe-x"></i> Remove
+                  </a>
+
+                </div>
+
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="row align-items-center">
+              <div class="col-4">
+
+                <!-- Image -->
+                <a href="product.html">
+                  <img class="img-fluid" src="assets/img/products/pcover-2.jpg" alt="...">
+                </a>
+
+              </div>
+              <div class="col-8">
+
+                <!-- Title -->
+                <p class="font-size-sm font-weight-bold mb-6">
+                  <a class="text-body" href="product.html">Printed Mobile Cover</a> <br>
+                  <span class="text-muted">₹199.00</span>
+                </p>
+
+                <!--Footer -->
+                <div class="d-flex align-items-center">
+
+                  <!-- Select -->
+                  <select class="custom-select custom-select-xxs w-auto">
+                    <option value="1">1</option>
+                    <option value="1">2</option>
+                    <option value="1">3</option>
+                  </select>
+
+                  <!-- Remove -->
+                  <a class="font-size-xs text-gray-400 ml-auto" href="#!">
+                    <i class="fe fe-x"></i> Remove
+                  </a>
+
+                </div>
+
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <!-- Footer -->
+        <div class="modal-footer line-height-fixed font-size-sm bg-light mt-auto">
+          <strong>Subtotal</strong> <strong class="ml-auto">₹698.00</strong>
+        </div>
+
+        <!-- Buttons -->
+        <div class="modal-body">
+          <a class="btn btn-block btn-dark" href="checkout.html">Continue to Checkout</a>
+          <a class="btn btn-block btn-outline-dark" href="shopping-cart.html">View Cart</a>
+        </div>
+
+      </div>
+
+      <!-- Empty cart (remove `.d-none` to enable it) -->
+      <div class="modal-content d-none">
+
+        <!-- Close -->
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <i class="fe fe-x" aria-hidden="true"></i>
+        </button>
+
+        <!-- Header-->
+        <div class="modal-header line-height-fixed font-size-lg">
+          <strong class="mx-auto">Your Cart (0)</strong>
+        </div>
+
+        <!-- Body -->
+        <div class="modal-body flex-grow-0 my-auto">
+
+          <!-- Heading -->
+          <h6 class="mb-7 text-center">Your cart is empty 😞</h6>
+
+          <!-- Button -->
+          <a class="btn btn-block btn-outline-dark" href="#!">
+            Continue Shopping
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Size Chart -->
+  <div class="modal fade" id="modalSizeChart" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+
+        <!-- Close -->
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <i class="fe fe-x" aria-hidden="true"></i>
+        </button>
+
+        <!-- Header-->
+        <div class="modal-header line-height-fixed font-size-lg">
+          <strong class="mx-auto">Size Chart</strong>
+        </div>
+
+        <!-- Body -->
+        <div class="modal-body border-bottom">
+
+          <!-- Header -->
+          <div class="d-flex mb-7">
+
+            <!-- Heading -->
+            <h5 class="mb-0">T-Shirts</h5>
+
+            <!-- Toggles -->
+            <div class="btn-group btn-group-toggle ml-auto" data-toggle="buttons">
+              <label class="btn btn-xxs btn-circle btn-outline-dark font-size-xxxs rounded-0 active">
+                <input type="radio" name="modalSizeChartUnitOne" checked> IN
+              </label>
+              <label class="btn btn-xxs btn-circle btn-outline-dark font-size-xxxs rounded-0 ml-2">
+                <input type="radio" name="modalSizeChartUnitOne"> CM
+              </label>
+            </div>
+
+          </div>
+
+          <!-- Table -->
+          <div class="table-responsive">
+            <table class="table table-bordered table-sm table-hover mb-0">
+              <thead>
+                <tr>
+                  <th>Size</th>
+                  <th>US</th>
+                  <th>Bust</th>
+                  <th>Waist</th>
+                  <th>Hips</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>XS</td>
+                  <td>2</td>
+                  <td>32</td>
+                  <td>24 - 25</td>
+                  <td>33 - 34</td>
+                </tr>
+                <tr>
+                  <td>S</td>
+                  <td>4</td>
+                  <td>34 - 35</td>
+                  <td>26 - 27</td>
+                  <td>35 - 26</td>
+                </tr>
+                <tr>
+                  <td>M</td>
+                  <td>6</td>
+                  <td>36 - 37</td>
+                  <td>28 - 29</td>
+                  <td>38 - 40</td>
+                </tr>
+                <tr>
+                  <td>L</td>
+                  <td>8</td>
+                  <td>38 - 29</td>
+                  <td>30 - 31</td>
+                  <td>42 - 44</td>
+                </tr>
+                <tr>
+                  <td>XL</td>
+                  <td>10</td>
+                  <td>40 - 41</td>
+                  <td>32 - 33</td>
+                  <td>45 - 47</td>
+                </tr>
+                <tr>
+                  <td>XXL</td>
+                  <td>12</td>
+                  <td>42 - 43</td>
+                  <td>34 - 35</td>
+                  <td>48 - 50</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand" href="https://memekarmedia.com/">
+        Memekar. Media.
+      </a>
+
+      <!-- Toggler -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+
+        <!-- Nav -->
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+
+            <!-- Toggle -->
+            <a class="nav-link" href="./index.html">HOME</a>
+
+          </li>
+          <li class="nav-item dropdown position-static">
+
+            <!-- Toggle -->
+            <a class="nav-link" data-toggle="dropdown" href="#">CATALOG</a>
+
+            <!-- Menu -->
+            <div class="dropdown-menu w-100">
+
+              <!-- Tabs -->
+              <form class="mb-2 mb-lg-0 border-bottom-lg">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+
+                      <!-- Nav -->
+                      <nav class="nav nav-tabs nav-overflow font-size-xs border-bottom border-bottom-lg-0">
+                        <a class="nav-link text-uppercase active" data-toggle="tab" href="#navTabWomen">
+                          Women
+                        </a>
+                        <a class="nav-link text-uppercase" data-toggle="tab" href="#navTabMen">
+                          Men
+                        </a>
+                      </nav>
+
+                    </div>
+                  </div>
+                </div>
+              </form>
+
+              <!-- Tab content 1 -->
+              <div class="card card-lg">
+                <div class="card-body">
+                  <div class="tab-content">
+                    <div class="tab-pane fade show active" id="navTabWomen">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-6 col-md">
+
+                            <!-- Heading -->
+                            <div class="mb-5 font-weight-bold">T-Shirts</div>
+
+                            <!-- Links -->
+                            <ul class="list-styled mb-6 mb-md-0 font-size-sm">
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">All T-Shirts</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">White</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">Black Printed</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">Blue</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">Pinki</a>
+                              </li>
+                            </ul>
+
+                          </div>
+                          <div class="col-6 col-md">
+
+                            <!-- Heading -->
+                            <div class="mb-5 font-weight-bold">Phone Covers</div>
+
+                            <!-- Links -->
+                            <ul class="list-styled mb-6 mb-md-0 font-size-sm">
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">Simple</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">For One Plus</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">For IPhone</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">For Realme Phone</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">For Samsung Phone</a>
+                              </li>
+                            </ul>
+
+                          </div>
+                          <div class="col-6 col-md">
+
+                            <!-- Heading -->
+                            <div class="mb-5 font-weight-bold">Mugs</div>
+
+                            <!-- Links -->
+                            <ul class="list-styled mb-0 font-size-sm">
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">Red</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">Black</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">White Printed</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">Yellow</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">White & Black</a>
+                              </li>
+                            </ul>
+
+                          </div>
+
+                          <div class="col-4 d-none d-lg-block">
+
+                            <!-- Card -->
+                            <div class="card">
+
+                              <!-- Image -->
+                              <img class="card-img" src="assets/img/products/tshirt-1.jpg" alt="...">
+
+                              <!-- Overlay -->
+                              <div class="card-img-overlay bg-dark-0 bg-hover align-items-center">
+                                <div class="text-center">
+                                  <a class="btn btn-white stretched-link" href="shop.html">
+                                    Shop T-Shirts <i class="fe fe-arrow-right ml-2"></i>
+                                  </a>
+                                </div>
+                              </div>
+
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="tab-pane fade show" id="navTabMen">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-6 col-md">
+
+                            <!-- Heading -->
+                            <div class="mb-5 font-weight-bold">T-Shirts</div>
+
+                            <!-- Links -->
+                            <ul class="list-styled mb-6 mb-md-0 font-size-sm">
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">All T-Shirts</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">White</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">Black Printed</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">Blue</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">Grey</a>
+                              </li>
+                            </ul>
+
+                          </div>
+                          <div class="col-6 col-md">
+
+                            <!-- Heading -->
+                            <div class="mb-5 font-weight-bold">Phone Covers</div>
+
+                            <!-- Links -->
+                            <ul class="list-styled mb-6 mb-md-0 font-size-sm">
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">Simple</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">For One Plus</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">For IPhone</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">For Realme Phone</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">For Samsung Phone</a>
+                              </li>
+                            </ul>
+
+                          </div>
+                          <div class="col-6 col-md">
+
+                            <!-- Heading -->
+                            <div class="mb-5 font-weight-bold">Mugs</div>
+
+                            <!-- Links -->
+                            <ul class="list-styled mb-0 font-size-sm">
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">Red</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">Black</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">White Printed</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">Yellow</a>
+                              </li>
+                              <li class="list-styled-item">
+                                <a class="list-styled-link" href="shop.html">White & Black</a>
+                              </li>
+                            </ul>
+
+                          </div>
+
+                          <div class="col-4 d-none d-lg-block">
+
+                            <!-- Card -->
+                            <div class="card">
+
+                              <!-- Image -->
+                              <img class="card-img" src="assets/img/products/tshirt-2.jpg" alt="...">
+
+                              <!-- Overlay -->
+                              <div class="card-img-overlay bg-dark-0 bg-hover align-items-center">
+                                <div class="text-center">
+                                  <a class="btn btn-white stretched-link" href="shop.html">
+                                    Shop T-Shirts <i class="fe fe-arrow-right ml-2"></i>
+                                  </a>
+                                </div>
+                              </div>
+
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </li>
+          <li class="nav-item">
+
+            <!-- Toggle -->
+            <a class="nav-link active" href="./shop.html">SHOP</a>
+
+          </li>
+          <li class="nav-item">
+
+            <!-- Toggle -->
+            <a class="nav-link" href="./contact-us.html">CONTACT</a>
+
+          </li>
+          <li class="nav-item">
+            <!-- Toggle -->
+            <a class="nav-link" href="./auth.html">LOGIN | SIGNUP</a>
+          </li>
+        </ul>
+
+        <!-- Nav -->
+        <ul class="navbar-nav flex-row">
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="modal" href="#modalSearch">
+              <i class="fe fe-search"></i>
+            </a>
+          </li>
+          <li class="nav-item ml-lg-n4">
+            <a class="nav-link" href="account-orders.html">
+              <i class="fe fe-user"></i>
+            </a>
+          </li>
+          <li class="nav-item ml-lg-n4">
+            <a class="nav-link" href="account-wishlist.html">
+              <i class="fe fe-heart"></i>
+            </a>
+          </li>
+          <li class="nav-item ml-lg-n4">
+            <a class="nav-link" data-toggle="modal" href="#modalShoppingCart">
+              <span data-cart-items="2">
+                <i class="fe fe-shopping-cart"></i>
+              </span>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- PROMO -->
+  <div class="py-3 bg-dark bg-pattern @@classList">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+
+          <!-- Text -->
+          <div class="text-center text-white">
+            <span class="heading-xxs letter-spacing-xl">
+              ⚡️ Happy Holiday Deals on Everything ⚡️
+            </span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BREADCRUMB -->
+  <nav class="my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+
+          <!-- Breadcrumb -->
+          <ol class="breadcrumb mb-0 font-size-xs text-gray-400">
+            <li class="breadcrumb-item">
+              <a class="text-reset" href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item active">
+              Shop
+            </li>
+          </ol>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- FILTERS -->
+  <section class="py-7 border-bottom">
+    <div class="container">
+      <!-- HEADER -->
+      <div class="row">
+        <div class="col-12">
+
+          <!-- Heading -->
+          <h3 class="mb-10 text-center">Memekar. Media. Shop</h3>
+
+        </div>
+      </div>
+
+      <div class="row align-items-center">
+        <div class="col-12 col-md">
+
+          <!-- Categories -->
+          <nav class="nav nav-overflow mb-6 mb-md-0">
+            <a class="nav-link active" data-toggle="tab" href="#">All</a>
+            <a class="nav-link" data-toggle="tab" href="#topSellersTabAll">T-Shirts</a>
+            <a class="nav-link" data-toggle="tab" href="#topSellersTabAll">Mugs</a>
+            <a class="nav-link" data-toggle="tab" href="#topSellersTabAll">Phone Covers</a>
+          </nav>
+
+        </div>
+        <div class="col-12 col-md-auto text-center">
+
+          <!-- Filter -->
+          <a class="text-body" data-toggle="collapse" href="#collapseFilter" role="button">
+            <i class="fe fe-list mr-2"></i> Filter
+          </a>
+
+          <!-- Sort -->
+          <div class="dropdown ml-6">
+
+            <!-- Toggle -->
+            <a class="dropdown-toggle text-body" data-toggle="dropdown" href="#">Default</a>
+
+            <!-- Menu -->
+            <form class="dropdown-menu">
+              <div class="card">
+                <div class="card-body">
+
+                  <!-- Form group -->
+                  <div class="form-group-overflow">
+                    <div class="custom-control custom-control-text mb-3">
+                      <input class="custom-control-input" id="sortOne" name="sort" type="radio" value="Default">
+                      <label class="custom-control-label" for="sortOne">Default</label>
+                    </div>
+                    <div class="custom-control custom-control-text mb-3">
+                      <input class="custom-control-input" id="sortTwo" name="sort" type="radio" value="Newest">
+                      <label class="custom-control-label" for="sortTwo">Newest</label>
+                    </div>
+                    <div class="custom-control custom-control-text mb-3">
+                      <input class="custom-control-input" id="sortThree" name="sort" type="radio" value="Most Popular">
+                      <label class="custom-control-label" for="sortThree">Most Popular</label>
+                    </div>
+                    <div class="custom-control custom-control-text mb-3">
+                      <input class="custom-control-input" id="sortFour" name="sort" type="radio" value="Default Price">
+                      <label class="custom-control-label" for="sortFour">Default Price</label>
+                    </div>
+                    <div class="custom-control custom-control-text">
+                      <input class="custom-control-input" id="sortFive" name="sort" type="radio" value="Highest Price">
+                      <label class="custom-control-label" for="sortFive">Highest Price</label>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FILTERS (collapse) -->
+  <section class="collapse" id="collapseFilter">
+    <form class="py-7 border-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-3">
+
+            <!-- Heading -->
+            <p class="font-size-lg">
+              <strong>Product:</strong>
+            </p>
+
+            <!-- Form group -->
+            <div class="form-group form-group-overflow mb-md-0">
+              <div class="custom-control custom-checkbox mb-3">
+                <input class="custom-control-input" id="seasonOne" name="category" type="checkbox" value="Summer">
+                <label class="custom-control-label" for="seasonOne">T-Shirt</label>
+              </div>
+              <div class="custom-control custom-checkbox mb-3">
+                <input class="custom-control-input" id="seasonTwo" name="category" type="checkbox" value="Winter">
+                <label class="custom-control-label" for="seasonTwo">Phone Case</label>
+              </div>
+              <div class="custom-control custom-checkbox mb-3">
+                <input class="custom-control-input" id="seasonThree" name="category" type="checkbox"
+                  value="Spring & Fall">
+                <label class="custom-control-label" for="seasonThree">Coffee Mug</label>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-md-3">
+
+            <!-- Heading -->
+            <p class="font-size-lg">
+              <strong>T-Shirt Size:</strong>
+            </p>
+
+            <!-- Form group -->
+            <div class="form-group form-group-overflow mb-md-0">
+              <div class="custom-control custom-control-inline custom-control-size mb-2">
+                <input class="custom-control-input" id="sizeOne" type="checkbox">
+                <label class="custom-control-label" for="sizeOne">
+                  3XS
+                </label>
+              </div>
+              <div class="custom-control custom-control-inline custom-control-size mb-2">
+                <input class="custom-control-input" id="sizeTwo" type="checkbox" disabled>
+                <label class="custom-control-label" for="sizeTwo">
+                  2XS
+                </label>
+              </div>
+              <div class="custom-control custom-control-inline custom-control-size mb-2">
+                <input class="custom-control-input" id="sizeThree" type="checkbox">
+                <label class="custom-control-label" for="sizeThree">
+                  XS
+                </label>
+              </div>
+              <div class="custom-control custom-control-inline custom-control-size mb-2">
+                <input class="custom-control-input" id="sizeFour" type="checkbox">
+                <label class="custom-control-label" for="sizeFour">
+                  S
+                </label>
+              </div>
+              <div class="custom-control custom-control-inline custom-control-size mb-2">
+                <input class="custom-control-input" id="sizeFive" type="checkbox">
+                <label class="custom-control-label" for="sizeFive">
+                  M
+                </label>
+              </div>
+              <div class="custom-control custom-control-inline custom-control-size mb-2">
+                <input class="custom-control-input" id="sizeSix" type="checkbox">
+                <label class="custom-control-label" for="sizeSix">
+                  L
+                </label>
+              </div>
+              <div class="custom-control custom-control-inline custom-control-size mb-2">
+                <input class="custom-control-input" id="sizeSeven" type="checkbox">
+                <label class="custom-control-label" for="sizeSeven">
+                  XL
+                </label>
+              </div>
+              <div class="custom-control custom-control-inline custom-control-size mb-2">
+                <input class="custom-control-input" id="sizeEight" type="checkbox" disabled>
+                <label class="custom-control-label" for="sizeEight">
+                  2XL
+                </label>
+              </div>
+              <div class="custom-control custom-control-inline custom-control-size mb-2">
+                <input class="custom-control-input" id="sizeNine" type="checkbox">
+                <label class="custom-control-label" for="sizeNine">
+                  3XL
+                </label>
+              </div>
+              <div class="custom-control custom-control-inline custom-control-size mb-2">
+                <input class="custom-control-input" id="sizeTen" type="checkbox">
+                <label class="custom-control-label" for="sizeTen">
+                  4XL
+                </label>
+              </div>
+              <div class="custom-control custom-control-inline custom-control-size mb-2">
+                <input class="custom-control-input" id="sizeEleven" type="checkbox">
+                <label class="custom-control-label" for="sizeEleven">
+                  One Size
+                </label>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-md-3">
+
+            <!-- Heading -->
+            <p class="font-size-lg">
+              <strong>Color:</strong>
+            </p>
+
+            <!-- Form group -->
+            <div class="form-group form-group-overflow mb-md-0">
+              <div class="custom-control custom-control-color custom-control-inline mb-3">
+                <input class="custom-control-input" id="colorOne" type="checkbox">
+                <label class="custom-control-label text-dark" for="colorOne"></label>
+              </div>
+              <div class="custom-control custom-control-color custom-control-inline mb-3">
+                <input class="custom-control-input" id="colorTwo" type="checkbox">
+                <label class="custom-control-label" style="color: #f9f9f9;" for="colorTwo"></label>
+              </div>
+              <div class="custom-control custom-control-color custom-control-inline mb-3">
+                <input class="custom-control-input" id="colorThree" type="checkbox">
+                <label class="custom-control-label text-info" for="colorThree"></label>
+              </div>
+              <div class="custom-control custom-control-color custom-control-inline mb-3">
+                <input class="custom-control-input" id="colorFour" type="checkbox">
+                <label class="custom-control-label text-primary" for="colorFour"></label>
+              </div> <br>
+              <div class="custom-control custom-control-color custom-control-inline mb-3">
+                <input class="custom-control-input" id="colorFive" type="checkbox">
+                <label class="custom-control-label" for="colorFive" style="color: #795548"></label>
+              </div>
+              <div class="custom-control custom-control-color custom-control-inline mb-3">
+                <input class="custom-control-input" id="colorSix" type="checkbox">
+                <label class="custom-control-label text-gray-300" for="colorSix"></label>
+              </div>
+              <div class="custom-control custom-control-color custom-control-inline mb-3">
+                <input class="custom-control-input" id="colorSeven" type="checkbox">
+                <label class="custom-control-label" for="colorSeven" style="color: #17a2b8;"></label>
+              </div>
+              <div class="custom-control custom-control-color custom-control-inline">
+                <input class="custom-control-input" id="colorEight" type="checkbox">
+                <label class="custom-control-label" for="colorEight" style="color: #e83e8c;"></label>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-md-3">
+
+            <!-- Heading -->
+            <p class="font-size-lg">
+              <strong>Price:</strong>
+            </p>
+
+            <!-- Form group-->
+            <div class="form-group form-group-overflow mb-6" id="priceGroup">
+              <div class="custom-control custom-checkbox mb-3">
+                <input class="custom-control-input" id="priceOne" type="checkbox">
+                <label class="custom-control-label" for="priceOne">
+                  ₹10.00 - ₹49.00
+                </label>
+              </div>
+              <div class="custom-control custom-checkbox mb-3">
+                <input class="custom-control-input" id="priceTwo" type="checkbox">
+                <label class="custom-control-label" for="priceTwo">
+                  ₹50.00 - ₹99.00
+                </label>
+              </div>
+              <div class="custom-control custom-checkbox mb-3">
+                <input class="custom-control-input" id="priceThree" type="checkbox">
+                <label class="custom-control-label" for="priceThree">
+                  ₹100.00 - ₹199.00
+                </label>
+              </div>
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" id="priceFour" type="checkbox">
+                <label class="custom-control-label" for="priceFour">
+                  ₹200.00 and Up
+                </label>
+              </div>
+            </div>
+
+            <!-- Range -->
+            <div class="d-flex align-items-center">
+
+              <!-- Input -->
+              <input type="number" class="form-control form-control-xs" placeholder="₹10.00" min="10">
+
+              <!-- Divider -->
+              <div class="text-gray-350 mx-2">‒</div>
+
+              <!-- Input -->
+              <input type="number" class="form-control form-control-xs" placeholder="₹350.00" max="350">
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </form>
+  </section>
+
+  <!-- CONTENT -->
+  <section class="py-12">
+    <div class="container">
+      <div class="row fade show active" id="topSellersTabAll">
+        <div class="col-6 col-md-3 col-lg">
+
+          <!-- Card -->
+          <div class="card mb-7" data-toggle="card-collapse">
+
+            <!-- Image -->
+            <a href="product.html">
+              <img src="assets/img/products/product-112.jpg" alt="..." class="card-img-top">
+            </a>
+
+            <!-- Collapse -->
+            <div class="card-collapse-parent">
+
+              <!-- Body -->
+              <div class="card-body px-0 bg-white text-center">
+
+                <!-- Heading -->
+                <div class="mb-1 font-weight-bold">
+                  <a class="text-body" href="product.html">Cotton Lined T-Shirt</a>
+                </div>
+
+                <!-- Price -->
+                <div class="mb-1 font-weight-bold text-muted">
+                  ₹499.00
+                </div>
+
+                <!-- Rating -->
+                <div class="rating font-size-xxs text-dark justify-content-center" data-value="3">
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Footer -->
+              <div class="card-collapse collapse">
+                <div class="card-footer px-0 pt-0 bg-white text-center">
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="modal" data-target="#modalProduct">
+                    <i class="fe fe-eye"></i>
+                  </button>
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="button">
+                    <i class="fe fe-shopping-cart"></i>
+                  </button>
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="button">
+                    <i class="fe fe-heart"></i>
+                  </button>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-6 col-md-3 col-lg">
+
+          <!-- Card -->
+          <div class="card mb-7" data-toggle="card-collapse">
+
+            <!-- Image -->
+            <a href="product.html">
+              <img src="assets/img/products/product-48.jpg" alt="..." class="card-img-top">
+            </a>
+
+            <!-- Collapse -->
+            <div class="card-collapse-parent">
+
+              <!-- Body -->
+              <div class="card-body px-0 bg-white text-center">
+
+                <!-- Heading -->
+                <div class="mb-1 font-weight-bold">
+                  <a class="text-body" href="product.html">Sweatshirt with Pocket</a>
+                </div>
+
+                <!-- Price -->
+                <div class="mb-1 font-weight-bold text-muted">
+                  ₹399.00
+                </div>
+
+                <!-- Rating -->
+                <div class="rating font-size-xxs text-dark justify-content-center" data-value="4">
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Footer -->
+              <div class="card-collapse collapse">
+                <div class="card-footer px-0 pt-0 bg-white text-center">
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="modal" data-target="#modalProduct">
+                    <i class="fe fe-eye"></i>
+                  </button>
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="button">
+                    <i class="fe fe-shopping-cart"></i>
+                  </button>
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="button">
+                    <i class="fe fe-heart"></i>
+                  </button>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-6 col-md-3 col-lg">
+
+          <!-- Card -->
+          <div class="card mb-7" data-toggle="card-collapse">
+
+            <!-- Image -->
+            <a href="product.html">
+              <img src="assets/img/products/mug-3.jpg" alt="..." class="card-img-top">
+            </a>
+
+            <!-- Collapse -->
+            <div class="card-collapse-parent">
+
+              <!-- Body -->
+              <div class="card-body px-0 bg-white text-center">
+
+                <!-- Heading -->
+                <div class="mb-1 font-weight-bold">
+                  <a class="text-body" href="product.html">Black Printed Mug</a>
+                </div>
+
+                <!-- Price -->
+                <div class="mb-1 font-weight-bold text-muted">
+                  ₹159.00
+                </div>
+
+                <!-- Rating -->
+                <div class="rating font-size-xxs text-dark justify-content-center">
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Footer -->
+              <div class="card-collapse collapse">
+                <div class="card-footer px-0 pt-0 bg-white text-center">
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="modal" data-target="#modalProduct">
+                    <i class="fe fe-eye"></i>
+                  </button>
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="button">
+                    <i class="fe fe-shopping-cart"></i>
+                  </button>
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="button">
+                    <i class="fe fe-heart"></i>
+                  </button>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-6 col-md-3 col-lg">
+
+          <!-- Card -->
+          <div class="card mb-7" data-toggle="card-collapse">
+
+            <!-- Image -->
+            <a href="product.html">
+              <img src="assets/img/products/pcover-3.jpg" alt="..." class="card-img-top">
+            </a>
+
+            <!-- Collapse -->
+            <div class="card-collapse-parent">
+
+              <!-- Body -->
+              <div class="card-body px-0 bg-white text-center">
+
+                <!-- Heading -->
+                <div class="mb-1 font-weight-bold">
+                  <a class="text-body" href="product.html">Black Phone Cover</a>
+                </div>
+
+                <!-- Price -->
+                <div class="mb-1 font-weight-bold text-muted">
+                  ₹199.00
+                </div>
+
+                <!-- Rating -->
+                <div class="rating font-size-xxs text-dark justify-content-center" data-value="2">
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Footer -->
+              <div class="card-collapse collapse">
+                <div class="card-footer px-0 pt-0 bg-white text-center">
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="modal" data-target="#modalProduct">
+                    <i class="fe fe-eye"></i>
+                  </button>
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="button">
+                    <i class="fe fe-shopping-cart"></i>
+                  </button>
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="button">
+                    <i class="fe fe-heart"></i>
+                  </button>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-6 col-md-3 col-lg">
+
+          <!-- Card -->
+          <div class="card mb-7" data-toggle="card-collapse">
+
+            <!-- Image -->
+            <a href="product.html">
+              <img src="assets/img/products/tshirt-3.jpg" alt="..." class="card-img-top">
+            </a>
+
+            <!-- Collapse -->
+            <div class="card-collapse-parent">
+
+              <!-- Body -->
+              <div class="card-body px-0 bg-white text-center">
+
+                <!-- Heading -->
+                <div class="mb-1 font-weight-bold">
+                  <a class="text-body" href="product.html">Cotton White T-Shirt</a>
+                </div>
+
+                <!-- Price -->
+                <div class="mb-1 font-weight-bold text-muted">
+                  ₹599.00
+                </div>
+
+                <!-- Rating -->
+                <div class="rating font-size-xxs text-dark justify-content-center">
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Footer -->
+              <div class="card-collapse collapse">
+                <div class="card-footer px-0 pt-0 bg-white text-center">
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="modal" data-target="#modalProduct">
+                    <i class="fe fe-eye"></i>
+                  </button>
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="button">
+                    <i class="fe fe-shopping-cart"></i>
+                  </button>
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="button">
+                    <i class="fe fe-heart"></i>
+                  </button>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Divider -->
+        <div class="w-100 d-none d-lg-block"></div>
+
+        <div class="col-6 col-md-3 col-lg">
+
+          <!-- Card -->
+          <div class="card mb-7" data-toggle="card-collapse">
+
+            <!-- Image -->
+            <a href="product.html">
+              <img src="assets/img/products/mug-4.jpg" alt="..." class="card-img-top">
+            </a>
+
+            <!-- Collapse -->
+            <div class="card-collapse-parent">
+
+              <!-- Body -->
+              <div class="card-body px-0 bg-white text-center">
+
+                <!-- Heading -->
+                <div class="mb-1 font-weight-bold">
+                  <a class="text-body" href="product.html">Designed Black Mug</a>
+                </div>
+
+                <!-- Price -->
+                <div class="mb-1 font-weight-bold text-muted">
+                  ₹199.00
+                </div>
+
+                <!-- Rating -->
+                <div class="rating font-size-xxs text-dark justify-content-center">
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Footer -->
+              <div class="card-collapse collapse">
+                <div class="card-footer px-0 pt-0 bg-white text-center">
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="modal" data-target="#modalProduct">
+                    <i class="fe fe-eye"></i>
+                  </button>
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="button">
+                    <i class="fe fe-shopping-cart"></i>
+                  </button>
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="button">
+                    <i class="fe fe-heart"></i>
+                  </button>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-6 col-md-3 col-lg">
+
+          <!-- Card -->
+          <div class="card mb-7" data-toggle="card-collapse">
+
+            <!-- Image -->
+            <a href="product.html">
+              <img src="assets/img/products/pcover-1.jpg" alt="..." class="card-img-top">
+            </a>
+
+            <!-- Collapse -->
+            <div class="card-collapse-parent">
+
+              <!-- Body -->
+              <div class="card-body px-0 bg-white text-center">
+
+                <!-- Heading -->
+                <div class="mb-1 font-weight-bold">
+                  <a class="text-body" href="product.html">Blue Phone Case</a>
+                </div>
+
+                <!-- Price -->
+                <div class="mb-1 font-weight-bold text-muted">
+                  ₹99.00
+                </div>
+
+                <!-- Rating -->
+                <div class="rating font-size-xxs text-dark justify-content-center" data-value="5">
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Footer -->
+              <div class="card-collapse collapse">
+                <div class="card-footer px-0 pt-0 bg-white text-center">
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="modal" data-target="#modalProduct">
+                    <i class="fe fe-eye"></i>
+                  </button>
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="button">
+                    <i class="fe fe-shopping-cart"></i>
+                  </button>
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="button">
+                    <i class="fe fe-heart"></i>
+                  </button>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-6 col-md-3 col-lg">
+
+          <!-- Card -->
+          <div class="card mb-7" data-toggle="card-collapse">
+
+            <!-- Image -->
+            <a href="product.html">
+              <img src="assets/img/products/tshirt-4.jpg" alt="..." class="card-img-top">
+            </a>
+
+            <!-- Collapse -->
+            <div class="card-collapse-parent">
+
+              <!-- Body -->
+              <div class="card-body px-0 bg-white text-center">
+
+                <!-- Heading -->
+                <div class="mb-1 font-weight-bold">
+                  <a class="text-body" href="product.html">Cotton White T-Shirt</a>
+                </div>
+
+                <!-- Price -->
+                <div class="mb-1 font-weight-bold text-muted">
+                  ₹399.00
+                </div>
+
+                <!-- Rating -->
+                <div class="rating font-size-xxs text-dark justify-content-center" data-value="5">
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Footer -->
+              <div class="card-collapse collapse">
+                <div class="card-footer px-0 pt-0 bg-white text-center">
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="modal" data-target="#modalProduct">
+                    <i class="fe fe-eye"></i>
+                  </button>
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="button">
+                    <i class="fe fe-shopping-cart"></i>
+                  </button>
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="button">
+                    <i class="fe fe-heart"></i>
+                  </button>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-6 col-md-3 col-lg">
+
+          <!-- Card -->
+          <div class="card mb-7" data-toggle="card-collapse">
+
+            <!-- Badge -->
+            <div class="badge badge-dark card-badge card-badge-left text-uppercase">
+              Sale
+            </div>
+
+            <!-- Image -->
+            <a href="product.html">
+              <img src="assets/img/products/mug-6.jpg" alt="..." class="card-img-top">
+            </a>
+
+            <!-- Collapse -->
+            <div class="card-collapse-parent">
+
+              <!-- Body -->
+              <div class="card-body px-0 bg-white text-center">
+
+                <!-- Heading -->
+                <div class="mb-1 font-weight-bold">
+                  <a class="text-body" href="product.html">Black & White Coffee Mug</a>
+                </div>
+
+                <!-- Price -->
+                <div class="mb-1 font-weight-bold text-muted">
+                  <span class="font-size-xs text-gray-350 text-decoration-line-through">
+                    ₹199.00
+                  </span>
+                  <span class="text-primary">₹159.00</span>
+                </div>
+
+                <!-- Rating -->
+                <div class="rating font-size-xxs text-dark justify-content-center" data-value="4">
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Footer -->
+              <div class="card-collapse collapse">
+                <div class="card-footer px-0 pt-0 bg-white text-center">
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="modal" data-target="#modalProduct">
+                    <i class="fe fe-eye"></i>
+                  </button>
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="button">
+                    <i class="fe fe-shopping-cart"></i>
+                  </button>
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="button">
+                    <i class="fe fe-heart"></i>
+                  </button>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-6 col-md-3 col-lg">
+
+          <!-- Card -->
+          <div class="card mb-7" data-toggle="card-collapse">
+
+            <!-- Badge -->
+            <div class="badge badge-dark card-badge card-badge-left text-uppercase">
+              Sale
+            </div>
+
+            <!-- Image -->
+            <a href="product.html">
+              <img src="assets/img/products/pcover-5.jpg" alt="..." class="card-img-top">
+            </a>
+
+            <!-- Collapse -->
+            <div class="card-collapse-parent">
+
+              <!-- Body -->
+              <div class="card-body px-0 bg-white text-center">
+
+                <!-- Heading -->
+                <div class="mb-1 font-weight-bold">
+                  <a class="text-body" href="product.html">Red Phone Case</a>
+                </div>
+
+                <!-- Price -->
+                <div class="mb-1 font-weight-bold text-muted">
+                  <span class="font-size-xs text-gray-350 text-decoration-line-through">
+                    ₹199.00
+                  </span>
+                  <span class="text-primary">₹159.00</span>
+                </div>
+
+                <!-- Rating -->
+                <div class="rating font-size-xxs text-dark justify-content-center" data-value="3">
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Footer -->
+              <div class="card-collapse collapse">
+                <div class="card-footer px-0 pt-0 bg-white text-center">
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="modal" data-target="#modalProduct">
+                    <i class="fe fe-eye"></i>
+                  </button>
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="button">
+                    <i class="fe fe-shopping-cart"></i>
+                  </button>
+                  <button class="btn btn-xs btn-link btn-circle" data-toggle="button">
+                    <i class="fe fe-heart"></i>
+                  </button>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+
+          <!-- Progress -->
+          <div class="row justify-content-center mt-7">
+            <div class="col-12 text-center">
+
+              <!-- Caption -->
+              <p class="font-size-sm text-muted">
+                Showing 16 of 24 products
+              </p>
+
+              <!-- Progress -->
+              <div class="progress mx-auto mb-7" style="max-width: 250px;">
+                <div class="progress-bar bg-dark" role="progressbar" style="width: 66%" aria-valuenow="66"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+              <!-- Button -->
+              <a class="btn btn-sm btn-outline-dark" href="#!">
+                Load more
+              </a>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <footer class="bg-dark bg-cover @@classList" style="background-image: url(assets/img/patterns/pattern-2.svg)">
+    <div class="py-12 border-bottom border-gray-700">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+
+            <!-- Brand -->
+            <h2 class="mb-5 text-white">Memekar. Media.</h2>
+
+            <!-- Links -->
+            <ul class="list-inline mb-5">
+              <li class="list-inline-item px-3">
+                <a class="text-gray-300" href="contact-us.html">Contact Us</a>
+              </li>
+              <li class="list-inline-item px-3">
+                <a class="text-gray-300" href="faq.html">FAQs</a>
+              </li>
+              <li class="list-inline-item px-3">
+                <a class="text-gray-300" data-toggle="modal" href="#modalSizeChart">Size Guide</a>
+              </li>
+              <li class="list-inline-item px-3">
+                <a class="text-gray-300" href="shipping-and-returns.html">Shipping & Returns</a>
+              </li>
+              <li class="list-inline-item px-3">
+                <a class="text-gray-300" href="about.html">Our Story</a>
+              </li>
+            </ul>
+
+            <!-- Links -->
+            <ul class="list-inline font-size-lg">
+              <li class="list-inline-item">
+                <a class="text-gray-300" href="#!">
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-gray-300" href="#!">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-gray-300" href="#!">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-gray-300" href="#!">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-gray-300" href="#!">
+                  <i class="fab fa-medium"></i>
+                </a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="py-6">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+
+            <!-- Copyright -->
+            <p class="mb-3 mb-md-0 font-size-xxs text-muted">
+              © 2020 Memekar. Media. &mdash; Store -- All rights reserved | Designed by
+              <a class="text-gray-300" target="_blank" href="http://ddsio.com/">Dreams Designers.</a>
+            </p>
+
+          </div>
+          <div class="col-auto d-none d-lg-block d-xl-none d-none d-xl-block">
+
+            <!-- Payment methods -->
+            <img class="footer-payment" src="assets/img/payment/mastercard.svg" alt="...">
+            <img class="footer-payment" src="assets/img/payment/visa.svg" alt="...">
+            <img class="footer-payment" src="assets/img/payment/amex.svg" alt="...">
+            <img class="footer-payment" src="assets/img/payment/paypal.svg" alt="...">
+            <img class="footer-payment" src="assets/img/payment/maestro.svg" alt="...">
+            <img class="footer-payment" src="assets/img/payment/klarna.svg" alt="...">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- JAVASCRIPT -->
+  <!-- Libs JS -->
+  <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+  <script src="assets/libs/%40fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+  <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/libs/flickity/dist/flickity.pkgd.min.js"></script>
+  <script src="assets/libs/highlightjs/highlight.pack.min.js"></script>
+  <script src="assets/libs/jarallax/dist/jarallax.min.js"></script>
+  <script src="assets/libs/list.js/dist/list.min.js"></script>
+  <script src="assets/libs/simplebar/dist/simplebar.min.js"></script>
+  <script src="assets/libs/smooth-scroll/dist/smooth-scroll.min.js"></script>
+  <script src="assets/libs/flickity-fade/flickity-fade.js"></script>
+  <!-- Theme JS -->
+  <script src="assets/js/theme.min.js"></script>
+
+
+</body>
+
+</html>
